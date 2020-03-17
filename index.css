@@ -1,0 +1,165 @@
+html {
+    margin: 0px;
+    background: transparent;
+    z-index: -1;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 6em;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.topContainer {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 4;
+
+    display: block;
+    content: "";
+    clear: both;
+
+    border-bottom: 8px solid black;
+}
+
+.topContainer p {
+    color: black;
+}
+
+.topColumn {
+    width: 20%;
+    float: left;
+    height: 6em;
+}
+
+.topColumn2 {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+.topColumn3 {
+    width: 20%;
+    float: left;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 2em;
+    line-height: 3em;
+}
+
+.topColumn3 p {
+    margin: 0px 1em 0px 0px;
+}
+
+#husky {
+    height: 6em;
+    margin: 0px 0px 0px 1em;
+}
+
+.topContainer h1 {
+    font-variant: small-caps;
+    color: orange;
+    font-family: 'Balthazar', serif;
+}
+
+.parallax {
+    position: relative;
+
+    background-image: url(img/qb.jpg);
+
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 1600px;
+
+    border: 0px;
+
+    z-index: 2;
+}
+
+.parallax2 {
+    position: relative;
+
+
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 300px;
+
+    border: 0px;
+
+    z-index: 2;
+}
+
+.middleContainer {
+    background-color: rgb(100, 100, 100, 0.8);
+    z-index: 3;
+    width: 100%;
+    text-align: center;
+    bottom: 0%;
+    position: absolute;
+
+    color:white;
+
+    vertical-align: middle;
+
+    padding: 8em 0em;
+}
+
+.middleContainer p {
+    font-size: 1.5em;
+    margin: 3em;
+}
+
+.bottomContainer {
+    position: absolute;
+    bottom: 0%;
+    background-color: white;
+    width: 100%;
+}
+
+.bottomContainer:after {
+    display:block;
+    width: 100%;
+    content: "";
+    clear: both;
+    padding: 0em 0em 2em 0em;
+}
+
+.bottomContainer h1 {
+    font-size: 2.5em;
+    padding: 0em 3em;
+}
+
+.bottomContainer p {
+    color: orange;
+    font-size: 1.5em;
+    padding: 0em 3em;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
