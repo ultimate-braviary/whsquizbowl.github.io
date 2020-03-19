@@ -24,6 +24,10 @@ a:link {
     text-decoration: none;
 }
 
+a:hover p {
+    color: #ffca60;
+}
+
 .topContainer {
     position: fixed;
     background-color: white;
@@ -75,6 +79,10 @@ a:link {
     font-variant: small-caps;
     color: orange;
     font-family: 'Balthazar', serif;
+}
+
+.topContainer a:hover p {
+    color:gray;
 }
 
 .parallax {
